@@ -8,9 +8,11 @@ from threading import Thread
 from datetime import datetime, timedelta
 import threading
 import telebot
+import os
 
-bot_token = '7944445786:AAG7_UAXUz0Iws51E_oyvJlO5tESu69ptHM'
+bot_token = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(bot_token)
+
 user_data = {}
 allowed_users = ['7824599639']
 admin_id = '7824599639'
