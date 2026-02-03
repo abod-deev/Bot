@@ -14,8 +14,8 @@ bot_token = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(bot_token)
 
 user_data = {}
-allowed_users = ['5145609515']
-admin_id = '5145609515'
+allowed_users = ['7824599639','5145609515']
+admin_id = '7824599639'
 subscription_data = {}
 
 keyboard = telebot.types.InlineKeyboardMarkup(row_width=2)
